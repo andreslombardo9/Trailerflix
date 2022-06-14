@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+body {
+    font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to bottom, #4e1f1f 0, #d8181800 100%);
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: linear-gradient(to bottom, #121b24 0, rgba(0, 0, 0, 0) 100%);
+}
+
+.nav-margin {
+    margin-bottom: 9rem;
+}
+
+h1 {
+    
+    display: flex;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin: 1rem;
+    border-bottom: 1px solid red
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.nav-li>a {
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    border-bottom: 2px solid red;
+    font-size: 1.5rem;
+    margin: .3rem;
+    text-decoration: none;
+    color: red;
+    border-radius: 3px;
+    padding: .5rem;
+}
+
+.li-a:hover,
+.li-a:focus {
+    background-color: rgb(205, 0, 0);
+    border-bottom: 4px solid rgb(78, 11, 11);
+    color: #000000;
+    transition: .5s;
+}
+
+
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    align-items: center;
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 520px;
+    width: 300px;
+    border-radius: 20px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    margin: 1rem;
+
+}
+
+.card-portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.img-responsive {
+    border-radius: 20px;
+    height: 410px;
+    width: 230px;
+    box-shadow: 2px 2px 5px red;
+}
+
+.search-icon {
+    position: relative;
+    bottom: 16px;
+    right: -50px;
+    z-index: 10;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+
+.search-icon:hover {
+    background-color: black;
+    color: red;
+    transition: .7s;
+}
+
+.card-info {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.info-title {
+    color: red;
+}
+
+.info-duracion {
+    display: flex;
+    justify-content: center;
+}
+
+.duracion {
+    color: red;
+}
+
+.duracion-info {
+    color: red;
+}
+
+.div-boton-volver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-volver {
+    font-size: 1.5rem;
+    border: none;
+    padding: .5rem;
+    background: none;
+    transition: .5s;
+}
+.boton-volver:hover{
+    font-size: 2rem;
+    text-shadow: rgba(255, 255, 255, 0.3) 0px 0px 10px;
+    color: #000000;
+    transition: .5s;
+}
+.volver {
+    color: red;
+    text-decoration: none;
+   
+}
+
+.h2-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 1rem;
+    border-bottom: 1px solid red
+}
+
+.info-pelicula {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.info-pelicula-img {
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px red;
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    color: red;
+}
+
+.info-pelicula-div {
+    margin: 1rem;
+}
